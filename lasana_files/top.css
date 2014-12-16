@@ -1,0 +1,299 @@
+
+#slider {
+	padding-bottom:30px;
+}
+
+#recently {
+	padding-bottom:20px;
+	background-color:#F4F5F7;
+}
+#recently h1 {
+	margin-bottom:16px;
+}
+#recently ul {
+	overflow:hidden;
+	width:630px;
+	margin:0 auto;
+}
+#recently li {
+	float:left;
+	text-align:left;
+	margin:0 5px;
+	width:200px;
+	font-size:80%;
+}
+#recently li a {
+	display:block;
+	border:1px solid #D5D5D5;
+	padding:3px 0;
+	margin-bottom:10px;
+	background:#FFF;
+	text-align:center;
+}
+#ranking {
+	padding:20px 0 40px 0;
+}
+#ranking ul {
+	overflow:hidden;
+	width:630px;
+	margin:0 auto;
+	padding:40px 5px 0;
+}
+#ranking li {
+	float:left;
+	padding-top:50px;
+	margin:0 10px;
+	background:url(/theme/smp/img/top/ranking_01.png) top center no-repeat;
+	text-align:left;
+	font-size:80%;
+}
+#ranking li:nth-child(1) { background-image:url(/theme/smp/img/top/ranking_01.png); width:190px;}
+#ranking li:nth-child(2) { background-image:url(/theme/smp/img/top/ranking_02.png); width:190px;}
+#ranking li:nth-child(3) { background-image:url(/theme/smp/img/top/ranking_03.png); width:190px;}
+#ranking li a {
+	display:block;
+	margin-bottom:10px;
+	padding:5px 0;
+	border-top:1px dotted #D2D8DF;
+	border-bottom:1px dotted #D2D8DF;
+	text-align:center;
+}
+
+/*初めての方限定商品 季節のセール*/
+#seasonalsale {
+	margin-bottom:20px;
+}
+h1.trial {
+	background: 0 0 repeat-x;
+	background-image: url(/theme/smp/img/top/trial_title_icon.png),url(/theme/smp/img/common/title_bg_01.png);
+	background-position:15px center,0 0;
+	background-repeat:no-repeat, repeat-x;
+	text-indent:50px;
+}
+#trial li,
+#seasonalsale li {
+	font-size:90%;
+	overflow:hidden;
+	/*height:245px;*/
+	padding-right:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.3, #FFFFFF), color-stop(1, #EEEEEE));
+	background-image: -moz-linear-gradient(top, #FFFFFF 30%, #EEEEEE 100%);
+	border-bottom:1px solid #C5C5C5;
+}
+#trial li .image,
+#seasonalsale li .image {
+	float:left;
+	padding:5px;
+	background:#FFF;
+}
+#trial li .text,
+#seasonalsale li .text {
+	margin-left:245px;
+	padding-top:15px;
+}
+#trial li a,
+#seasonalsale li a {
+	display:block;
+	margin-bottom:15px;
+	padding:10px;
+	border-radius:10px;
+	background-color:#EDEDED;
+	text-align:left;
+	color:#313131;
+	/* font-size:14px; */
+}
+
+#trial {
+	margin-bottom:20px;
+}
+#trial li .copy,
+#seasonalsale li .copy {
+	color:#D62929;
+	font-weight:bold;
+	padding:10px;
+}
+#trial li .price,
+#seasonalsale li .price {
+	text-align:right;
+	/* font-size:14px; */
+	font-weight:bold;
+	padding:10px;
+}
+#seasonalsale li .copy,
+#seasonalsale li .price {
+	float:left;
+	width:40%;
+}
+#seasonalsale li .copy {
+	margin-top:2px;
+}
+.trouble {
+	padding:0 20px;
+	margin-bottom:20px;
+	background:url(/theme/smp/img/common/trouble_bg.png) 0 0 repeat-x;
+}
+.trouble a {
+	display:block;
+	height:84px;
+	padding-left:60px;
+	background-image:url(/theme/smp/img/common/arrow_06.png), url(/theme/smp/img/common/icon_pen_01.png);
+	background-position:right center, left center;
+	background-repeat:no-repeat, no-repeat;
+	line-height:84px;
+	/* font-size:14px; */
+	font-weight:bold;
+}
+
+/*add*/
+#campaign {
+	padding:20px 0;
+}
+#campaign ul {
+	overflow:hidden;
+	width:640px;
+	margin:0 auto;
+	padding: 20px 0 0 4px;
+}
+#campaign li {
+	float:left;
+	text-align:center;
+	margin:0 5px 20px 5px;
+	width:200px;
+}
+#campaign li a {
+	display: block;
+}
+#campaign li a span {
+	display: block;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	background-color: #e50178;
+	margin-bottom: 5px;
+}
+#campaign li a p {
+	text-decoration: underline;
+}
+#campaign li img {
+	display:block;
+	border:1px solid #D5D5D5;
+	padding:2px;
+	background:#FFF;
+}
+#history {
+	padding: 20px 0;
+	position: relative;
+}
+.btnAll {
+	position: absolute;
+	top: 26px;
+	right: 20px;
+}
+.btnAll a {
+	/* font-size: 11px; */
+	display: block;
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+}
+#history ul {
+	overflow:hidden;
+	width:640px;
+	margin:0 auto;
+	padding: 20px 0 0 4px;
+}
+#history li {
+	float: left;
+	margin: 0 5px;
+	width: 306px;
+}
+.historyBox {
+	border: 2px solid #ccc;
+	padding: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.historyBox img {
+	float: left;
+	margin-right: 20px;
+}
+.historyBox .txt {
+	overflow: hidden;
+}
+.historyBox p {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.historyBox p:last-child {
+	margin-bottom: 0;
+}
+.historyBox .price {
+	font-weight: bold;
+	text-align: right;
+}
+.historyBox a.detail {
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+
+}
+#recommend h1 {
+	margin-bottom: 20px;
+}
+#recommend .price {
+	text-align: right;
+	margin-bottom: 10px;
+}
+#recommend .price span {
+	color: #e50178;
+	font-weight: bold;
+}
+#recommend a {
+	text-decoration: underline;
+	color: #3333FF;
+}
+#recommend .icons span {
+	display: inline-block;
+	background-color: #FFFCE4;
+	padding: 6px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#recommend li:after {
+	background: url(/theme/smp/img/common/arrow_03.png) no-repeat;
+	width: 14px;
+	height: 24px;
+	content: '';
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -7px;
+}
+#recommend .lineup li .explain {
+	background: none;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.fc_pink {
+	color:#e90c70;
+}
